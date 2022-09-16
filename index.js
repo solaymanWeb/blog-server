@@ -9,13 +9,9 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 app.use(cors());
 app.use(express.json())
 
-const uri =`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.acwv6or.mongodb.net/?retryWrites=true&w=majority`
+const uri =`mongodb+srv://admin:gohSE782nH1jB7zL@cluster0.acwv6or.mongodb.net/?retryWrites=true&w=majority`
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-
-
-// gohSE782nH1jB7zL
-// admin
 
 
 
